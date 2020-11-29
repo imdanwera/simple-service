@@ -10,6 +10,7 @@ public class AppController {
 
     @GetMapping("/hi")
     public String sayHello(){
-        return "Hello";
+        System.out.println("Hello");
+        return "Hello\n";
     }
 }
