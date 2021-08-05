@@ -1,2 +1,10 @@
 
-server.port=8080
+server:
+  port: 8085
+
+logging:
+  file:
+    name: my_log.log
+    path: /home/ec2-user/my_projects/logs
+
+
